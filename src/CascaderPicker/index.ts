@@ -110,7 +110,7 @@ Component({
       let item = options.find((v) => v.value === value[0]);
       for (let i = 0; i < value.length; i++) {
         if (!item) {
-          return null;
+          return result;
         }
         result.push({
           value: item.value,

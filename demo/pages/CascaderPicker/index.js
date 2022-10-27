@@ -59,13 +59,13 @@ Page({
       value: 'staff',
       children: [{
         label: '后勤部',
-        value: 'grade1'
+        value: 'org1'
       },{
         label: '教学部',
-        value: 'grade2'
+        value: 'org2'
       },{
         label: '保卫科',
-        value: 'grade3'
+        value: 'org3'
       }]
       
     }]
